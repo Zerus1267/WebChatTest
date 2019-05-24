@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="chatdata@localhost" uuid="bab10973-f9dd-4b14-abed-7782ab74a9db">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://localhost:5432/chatdata</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="PostgreSQL - chatdata@google" uuid="6fcf749f-c472-4ffc-95cf-2d3b2231d993">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://google/chatdata?cloudSqlInstance=eco-seeker-241416:europe-west3:chatdb&amp;socketFactory=com.google.cloud.sql.postgres.SocketFactory</jdbc-url>
+    </data-source>
+    <data-source source="LOCAL" name="chatdata@google" uuid="2d4852f4-fb67-4f7b-898b-3eec390bcf4c">
+      <driver-ref>postgresql</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>org.postgresql.Driver</jdbc-driver>
+      <jdbc-url>jdbc:postgresql://google/chatdata?cloudSqlInstance=eco-seeker-241416:europe-west3:chatdb&amp;socketFactory=com.google.cloud.sql.postgres.SocketFactory</jdbc-url>
+    </data-source>
+  </component>
+</project>
